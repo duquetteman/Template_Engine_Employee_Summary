@@ -23,3 +23,6 @@ The project generates a `team.html` page in that displays a formatted team roste
 
   * Role-specific property (School, link to GitHub profile, or office number)
 
+![Image description](CLI_screenshot.png)
+
+
