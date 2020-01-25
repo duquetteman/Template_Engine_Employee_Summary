@@ -1,5 +1,4 @@
-const headerBlock = function () {
-    return `<!DOCTYPE html>
+<!DOCTYPE html>
     <html lang="en">
     
     <head>
@@ -48,79 +47,50 @@ const headerBlock = function () {
         <div class = "container">
             <div class="col-md-12">
                 <div class="row">
-    `
-};
-
-
-const managerBlock = function (data) {
-    return `<div class="card m-2">
+    ,<div class="card m-2">
     <div class="card-header">
-        <h1>${data.name}</h1>
+        <h1>qwef asdf</h1>
         <hr>
         <h2><i class="fas fa-pen-nib"></i> Manager</h2>
     </div>
     <div class= "card-body">
             <div class="list-group">
-                <p class="list-group-item list-group-item-action list-group-item-dark">ID: <span>${data.id}</span></p>
-                <p class="list-group-item list-group-item-action list-group-item-dark">Email: <span>${data.email}</span></p>
-                <p class="list-group-item list-group-item-action list-group-item-dark">Office Number: <span>${data.officeNumber}</span></p>
+                <p class="list-group-item list-group-item-action list-group-item-dark">ID: <span>asdf</span></p>
+                <p class="list-group-item list-group-item-action list-group-item-dark">Email: <span>sadf</span></p>
+                <p class="list-group-item list-group-item-action list-group-item-dark">Office Number: <span>asdf</span></p>
             </div>
     </div>
 </div>
-`
-};
-
-
-const engineerBlock = function (data) {
-    return ` <div class="card m-2">
+, <div class="card m-2">
     <div class="card-header">
-        <h1>${data.name}</h1>
+        <h1>sdf asdff</h1>
         <hr>
         <h2><i class="fas fa-laptop-code"></i> Engineer</h2>
     </div>
     <div class= "card-body">
             <div class="list-group">
-                <p class="list-group-item list-group-item-action list-group-item-dark">ID: <span>${data.id}</span></p>
-                <p class="list-group-item list-group-item-action list-group-item-dark">Email: <span>${data.email}</span></p>
-                <p class="list-group-item list-group-item-action list-group-item-dark">GitHub: <span>${data.github}</span></p>
+                <p class="list-group-item list-group-item-action list-group-item-dark">ID: <span>asdf</span></p>
+                <p class="list-group-item list-group-item-action list-group-item-dark">Email: <span>asdf</span></p>
+                <p class="list-group-item list-group-item-action list-group-item-dark">GitHub: <span>asdf</span></p>
             </div>
     </div>
 </div>
-`
-};
-
-
-const internBlock = function (data) {
-    return `<div class="card m-2">
+,<div class="card m-2">
     <div class="card-header">
-        <h1>${data.name}</h1>
+        <h1>asdff asdsfasdf</h1>
         <hr>
         <h2><i class="fas fa-coffee"></i> Intern</h2>
     </div>
     <div class= "card-body">
             <div class="list-group">
-                <p class="list-group-item list-group-item-action list-group-item-dark">ID: <span>${data.id}</span></p>
-                <p class="list-group-item list-group-item-action list-group-item-dark">Email: <span>${data.email}</span></p>
-                <p class="list-group-item list-group-item-action list-group-item-dark">GitHub: <span>${data.school}</span></p>
+                <p class="list-group-item list-group-item-action list-group-item-dark">ID: <span>asdf</span></p>
+                <p class="list-group-item list-group-item-action list-group-item-dark">Email: <span>asdf</span></p>
+                <p class="list-group-item list-group-item-action list-group-item-dark">GitHub: <span>asdf</span></p>
             </div>
     </div>
 </div>
-`
-};
-
-
-const footerBlock = function() {
-    return `</div>
+,</div>
     </div>
 </div>  
 </body>
-</html>`
-};
-
-module.exports = {
-    manager: managerBlock,
-    engineer: engineerBlock,
-    intern: internBlock,
-    header: headerBlock,
-    footer: footerBlock,
-}
+</html>
